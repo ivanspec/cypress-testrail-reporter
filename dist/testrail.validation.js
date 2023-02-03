@@ -90,6 +90,8 @@ var TestRailValidation = /** @class */ (function () {
                 break;
             }
         }
+        /**
+            This section making error in cucumber
         var specArg = result.split(/,/);
         for (index = 0; index < specArg.length; ++index) {
             value = specArg[index];
@@ -97,6 +99,7 @@ var TestRailValidation = /** @class */ (function () {
             directory = result.replace(/\b(js|ts|feature)\b/, '');
             workingDirectory.push(directory);
         }
+        **/ 
         for (index = 0; index < workingDirectory.length; ++index) {
             value = workingDirectory[index];
             var options = {
